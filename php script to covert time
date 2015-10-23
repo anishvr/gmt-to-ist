@@ -1,0 +1,13 @@
+<?php
+//GMT to IST
+$time_now=mktime(date('h')+5, date('i')+33, date('s'));
+$tim = gmdate('g.i a', $time_now);
+$dat = gmdate('j M Y', $time_now);
+echo $tim;
+echo("<br>");
+echo $dat;
+echo("<br>");
+echo("<br>");
+
+//GMT to IST
+?>
